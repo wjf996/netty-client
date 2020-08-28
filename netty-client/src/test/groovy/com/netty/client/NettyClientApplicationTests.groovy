@@ -1,6 +1,6 @@
-package com.netty.client.netty
+package com.netty.client
 
-import com.netty.client.netty.client.NettyClient
+
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 

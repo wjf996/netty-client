@@ -1,4 +1,4 @@
-package com.netty.client.netty.client
+package com.netty.client.netty
 
 import groovy.util.logging.Slf4j
 import io.netty.channel.ChannelHandlerContext

@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    bootstrap-servers: 192.168.133.128:9092
+    producer:
+      #重试次数
+      retries: 1
+      #每次批量发送消息的数量
+      batch-size: 163384
+      buffer-memory: 33554432
+      # 指定消息key和消息体的编解码方式 UTF-8
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+server:
+  port: 7070

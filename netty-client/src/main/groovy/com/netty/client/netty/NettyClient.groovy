@@ -1,8 +1,7 @@
-package com.netty.client.netty.client
+package com.netty.client.netty
 
 import groovy.util.logging.Slf4j
 import io.netty.bootstrap.Bootstrap
-import io.netty.channel.Channel
 import io.netty.channel.ChannelFuture
 import io.netty.channel.ChannelInitializer
 import io.netty.channel.ChannelOption
@@ -15,10 +14,6 @@ import io.netty.handler.codec.string.StringEncoder
 
 @Slf4j
 class NettyClient {
-
-
-
-
     void start(InetSocketAddress socketAddress) {
         def loopGroup = new NioEventLoopGroup()
         def b = new Bootstrap()
